@@ -1,0 +1,61 @@
+body {
+  background-color: orange;
+}
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% 15%;
+}
+.quote-generator {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 100%;
+}
+.quote {
+  margin: 10% 10% 5% 10%;
+  line-height: 1.5em;
+  font-size: xx-large;
+  font-weight: bold;
+  color: orange;
+}
+.fa-quote-left{
+    float: left;
+}
+#author {
+  text-align: right;
+  font-size: x-large;
+  font-weight: bold;
+  padding: 0% 10%;
+  color: orange;
+}
+.tools {
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 10% 8% 10%;
+}
+.fa-twitter, .fa-tumblr{
+    background-color: orange;
+    color: #ffffff;
+    padding: 15px;
+}
+ {
+  margin-left: 5px;
+}
+.quote-changer {
+  background-color: orange;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: large;
+  padding: 0% 3%;
+}
+.empty {
+  background-color: #ffffff;
+  width: 40%;
+  height: 75px;
+  margin-top: 0.5%;
+}
