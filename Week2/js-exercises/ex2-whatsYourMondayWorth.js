@@ -10,12 +10,6 @@
  Make sure the function can be used on any array of objects that contain a duration property with a number value
 
  */
-
-
-function dayWorth(tasks, hourlyRate) {
-  // put your code in here, the function does returns a euro formatted string
-}
-
 const mondayTasks = [{
     name: 'Daily standup',
     duration: 30, // specified in minutes
@@ -33,6 +27,13 @@ const mondayTasks = [{
     duration: 60,
   },
 ];
+const hourlyRate = 25;
+
+function dayWorth(tasks, hourlyRate) {
+  const dailyRate
+}
+
+
 
 console.log(dayWorth(mondayTasks, 25))
 console.log(dayWorth(mondayTasks, 13.37))
