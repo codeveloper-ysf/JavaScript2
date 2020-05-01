@@ -1,13 +1,3 @@
-/**
-
-** Exercise 4: Guess more **
-
-Look at the bellow code snippet.
-Can you guess the output? 
-Write out your reasoning in 50 words or less.
-
-*/
-
 const x = 9;
 
 function f1(val) {
@@ -27,3 +17,8 @@ function f2(val) {
 }
 f2(y);
 console.log(y);
+
+/* const only provides invariance between the identifier and the value, that is, it can not be reassigned to the defined variable. 
+however, the assigned object can still be modified. in javascript, primitive types (number, string, boolean, null, undefined) are immutable 
+and non-primitive types (object(array, date, regex), function) are mutable. that's why in f1 function x's value can not be changed 
+but in f2 function x's value can be changed. */
