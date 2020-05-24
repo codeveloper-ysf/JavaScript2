@@ -1,14 +1,15 @@
 'use strict';
 
 function createBase(number) {
-  return function addSix() {
-    number += 9;
-    return number;
+  var number;
+  function addSix() {
+    return number += 9;
   }
+  return addSix;
 }
 
-const addSix = createBase(6);
+const myFunc = createBase(6);
 
-console.log(addSix());
-console.log(addSix());
-console.log(addSix());
+console.log(myFunc());
+console.log(myFunc());
+console.log(myFunc());
