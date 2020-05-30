@@ -2,14 +2,14 @@
 
 function createBase(number) {
   var number;
-  function addSix() {
+  function increaseNumber() {
     return number += 9;
   }
-  return addSix;
+  return increaseNumber;
 }
 
-const myFunc = createBase(6);
+const addSix = createBase(6);
 
-console.log(myFunc());
-console.log(myFunc());
-console.log(myFunc());
+console.log(addSix());
+console.log(addSix());
+console.log(addSix());
